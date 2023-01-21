@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+.home{
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 20px;
+    width: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Sofia Sans', sans-serif;
+    
+}
+.accomodation{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 135px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.food{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 85px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.attractions{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+}
+.howtoreach{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 150px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+}
+.table12{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+
+}
+.slider {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    top: 250px;
+    left: 525px;
+    border-radius: 35px;
+  }
+  .image-container {
+    width: 1500px;
+    background-color: pink;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+    border-radius: 35px;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;
+  }
+.home a:link{
+    text-decoration: none;
+    color: black;
+    height: 70px;
+}
+.home a:hover{
+    text-decoration: underline;
+}
+.home a:visited{
+    color: black;
+}
+.accomodation a:link{
+    text-decoration: none;
+    color: black;
+    height: 70px;
+}
+.accomodation a:hover{
+    text-decoration: underline;
+}
+.accomodation a:visited{
+    color: black;
+}
+.food a:link{
+    text-decoration: none;
+    color: black;
+    height: 70px;
+}
+.food a:hover{
+    text-decoration: underline;
+}
+.food a:visited{
+    color: black;
+}
+.attractions a:link{
+    text-decoration: none;
+    color: black;
+    height: 70px;
+}
+.attractions a:hover{
+    text-decoration: underline;
+}
+.attractions a:visited{
+    color: black;
+}
+.howtoreach a:link{
+    text-decoration: none;
+    color: black;
+    height: 70px;
+}
+.howtoreach a:hover{
+    text-decoration: underline;
+}
+.howtoreach a:visited{
+    color: black;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    width: 1535px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 900px;
+    left: 520px;
+
+    font-size: 23px;
+  }
